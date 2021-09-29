@@ -1,0 +1,14 @@
+.link {
+  display: flex;
+  align-items: center;
+  width: 16px;
+  height: 16px;
+  padding-left: 25px;
+  margin-left: 30px;
+  margin-top: 25px;
+  background-image: url("../img/back.svg");
+  background-repeat: no-repeat;
+  text-decoration: none;
+  color: black;
+  z-index: 2;
+}

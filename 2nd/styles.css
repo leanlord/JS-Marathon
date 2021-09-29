@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #e4e4e4;
+  margin: 0;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 2rem;
+  overflow: hidden;
+}
+
+.heading {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3rem;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  width: 600px;
+  margin-bottom: 1rem;
+}
+
+.col-header {
+  width: 150px;
+  height: 150px;
+  padding: 0.8rem 1rem;
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.start {
+  background-image: url("1.png");
+}
+
+.progress {
+  background-image: url("2.png");
+}
+
+.done {
+  background-image: url("3.png");
+}
+
+.item {
+  width: 150px;
+  border: 1px solid saddlebrown;
+  box-shadow: 4px 4px 9px rgba(198, 198, 198, 0.36);
+  border-radius: 20px;
+  padding: 0.8rem 1rem;
+  text-align: center;
+  font-weight: 600;
+  background: #f7f6f7;
+  color: black;
+  cursor: grab;
+}
+
+.item:active {
+  cursor: grabbing;
+}
+
+.placeholder {
+  width: 150px;
+  height: 66px;
+}
+
+.hold {
+  border: 1px solid #eee;
+}
+
+.hovered {
+  border-top: 2px solid sandybrown;
+}
+
+.hide {
+  display: none;
+}
